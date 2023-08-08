@@ -8,13 +8,7 @@ public class Car {
     private String color;
     private int year;
     public static List<Car> cars = new ArrayList<>();
-    static {
-        cars.add(new Car("LADA", "WHITE", 2010));
-        cars.add(new Car("BMW", "BLACK", 2020));
-        cars.add(new Car("HONDA", "RED", 2021));
-        cars.add(new Car("HAMMER", "BLACK", 2020));
-        cars.add(new Car("KIA", "WHITE", 2022));
-    }
+
     public Car(String model, String color, int year) {
         this.model = model;
         this.color = color;
